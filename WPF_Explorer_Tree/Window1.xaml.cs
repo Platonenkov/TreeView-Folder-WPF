@@ -27,8 +27,6 @@ namespace WPF_Explorer_Tree
             InitializeComponent();
         }
 
-        public string SelectedImagePath { get; set; }
-
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             foreach (string s in Directory.GetLogicalDrives())
